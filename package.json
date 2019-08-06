@@ -7,8 +7,13 @@
   "files": [
     "generators"
   ],
+  "scripts": {
+    "release": "standard-version"
+  },
   "keywords": [
-    "yeoman-generator"
+    "yeoman-generator",
+    "mithril",
+    "typescript"
   ],
   "license": "MIT",
   "dependencies": {
@@ -16,6 +21,7 @@
   },
   "devDependencies": {
     "eslint": "^6.1.0",
-    "prettier": "^1.18.2"
+    "prettier": "^1.18.2",
+    "standard-version": "^7.0.0"
   }
 }
