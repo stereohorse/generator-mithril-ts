@@ -1,0 +1,21 @@
+{
+  "name": "generator-mithril-ts",
+  "description": "Yeoman generator for Mithril + TypeScript",
+  "version": "1.0.0",
+  "repository": "https://github.com/stereohorse/generator-mithril-ts",
+  "author": "Viet Nguyen <viet@testops.info>",
+  "files": [
+    "generators"
+  ],
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "yeoman-generator": "^4.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.1.0",
+    "prettier": "^1.18.2"
+  }
+}
