@@ -6,7 +6,8 @@
   "private": true,
   "scripts": {
     "start:dev": "webpack-dev-server --color --config webpack/webpack.dev.js",
-    "build": "webpack --config webpack/webpack.prod.js"
+    "build": "webpack --config webpack/webpack.prod.js",
+    "release": "standard-version"
   },
   "browserslist": [
     "last 2 versions",

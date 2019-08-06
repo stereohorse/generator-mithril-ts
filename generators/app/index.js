@@ -40,6 +40,7 @@ module.exports = class extends Generator {
       'postcss-loader',
       'postcss-preset-env',
       'prettier',
+      'standard-version',
       'style-loader',
       'ts-loader',
       'tslint',
