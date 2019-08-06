@@ -7,3 +7,4 @@ deploy:
   on:
     tags: true
     repo: stereohorse/generator-mithril-ts
+    branch: release
