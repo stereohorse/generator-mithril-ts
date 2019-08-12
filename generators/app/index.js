@@ -27,28 +27,31 @@ module.exports = class extends Generator {
   }
 
   installingDevDependencies() {
-    this.yarnInstall([
-      '@types/mithril',
-      'clean-webpack-plugin',
-      'css-loader',
-      'cssnano',
-      'eslint',
-      'eslint-config-prettier',
-      'eslint-plugin-prettier',
-      'html-webpack-plugin',
-      'postcss-import',
-      'postcss-loader',
-      'postcss-preset-env',
-      'prettier',
-      'standard-version',
-      'style-loader',
-      'ts-loader',
-      'tslint',
-      'typescript',
-      'webpack',
-      'webpack-cli',
-      'webpack-dev-server',
-      'webpack-merge',
-    ]);
+    this.yarnInstall(
+      [
+        '@types/mithril',
+        'clean-webpack-plugin',
+        'css-loader',
+        'cssnano',
+        'eslint',
+        'eslint-config-prettier',
+        'eslint-plugin-prettier',
+        'html-webpack-plugin',
+        'postcss-import',
+        'postcss-loader',
+        'postcss-preset-env',
+        'prettier',
+        'standard-version',
+        'style-loader',
+        'ts-loader',
+        'tslint',
+        'typescript',
+        'webpack',
+        'webpack-cli',
+        'webpack-dev-server',
+        'webpack-merge',
+      ],
+      { dev: true }
+    );
   }
 };
